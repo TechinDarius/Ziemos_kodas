@@ -1,0 +1,137 @@
+/*--------------GOOGLE FONTS---------------*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;700&display=swap");
+/*--------------VARIABLES CSS--------------*/
+/*--------------Colors--------------*/
+/*--------------Font and Typography--------------*/
+/*--------------Font weight--------------*/
+/*---------------- BASE -----------------*/
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 0.9375rem;
+}
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+h1.small {
+  font-family: "DM Serif Display", serif;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  font-weight: 400;
+}
+
+h3.small {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*---------------BUTTONS------------------*/
+.primmary-button-normal {
+  width: 10.8125rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  background: #ba4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
+  border: none;
+  text-align: center;
+  font-family: "Public Sans", sans-serif;
+  color: #fbfcfe;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  letter-spacing: -0.00719rem;
+}
+.primmary-button-normal:hover {
+  background-color: #da6d97;
+}
+.primmary-button-normal:disabled {
+  background-color: #ba4270;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.secondary-button-normal {
+  width: 8.0625rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  background-color: transparent;
+  border: 1px solid #fbfcfe;
+  color: #fbfcfe;
+  text-align: center;
+  font-family: "Public Sans", sans-serif;
+  font-size: 400;
+  font-weight: 700;
+  letter-spacing: -0.00719rem;
+}
+.secondary-button-normal:hover {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  color: #1b262f;
+}
+.secondary-button-normal:disabled {
+  background-color: transparent;
+  opacity: 0.5;
+  border-radius: 1.5rem;
+  border: 1px solid #fbfcfe;
+  pointer-events: none;
+}
+
+.secondary-submit-normal {
+  width: 9.5rem;
+  height: 3rem;
+  color: #36536b;
+  font-family: "Public Sans", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  letter-spacing: -0.00719rem;
+  border-radius: 1.5rem;
+  border: 1px solid #36536b;
+  background-color: transparent;
+}
+.secondary-submit-normal:hover {
+  background-color: #36536b;
+  color: #fff;
+}
+.secondary-submit-normal:disabled {
+  background-color: transparent;
+  opacity: 0.5;
+  border-radius: 1.5rem;
+  border: 1px solid #36536b;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=style.css.map */
