@@ -134,4 +134,71 @@ a {
   pointer-events: none;
 }
 
+/*===============  BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 375px) {
+  .header__container {
+    height: 740px;
+    text-align: center;
+    border: 2px solid #000;
+    color: #000;
+    background-color: #0000ff;
+  }
+  .main__container {
+    border: 2px solid #000;
+    background-color: #ff00bb;
+  }
+  .main__container .api__container {
+    height: 200px;
+    border: 1px solid #000;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .main__container .companies__container {
+    height: 200px;
+    border: 1px solid #000;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .main__container .implement__container {
+    height: 200px;
+    border: 1px solid #000;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .main__container .app__container {
+    height: 200px;
+    border: 1px solid #000;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .main__container .finances__container {
+    height: 200px;
+    border: 1px solid #000;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .main__container .demo__container {
+    height: 200px;
+    border: 1px solid #000;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .footer__container {
+    height: 353px;
+    text-align: center;
+    border: 2px solid #000;
+    color: #000;
+    flex-direction: column;
+    background-color: rgb(0, 255, 119);
+  }
+}
+/* For medium devices */
+/* @media screen and (min-width: 576px){
+
+  } */
+/* For large devices */
+/* @media screen and (min-width: 992px){
+  } */
+
 /*# sourceMappingURL=style.css.map */
