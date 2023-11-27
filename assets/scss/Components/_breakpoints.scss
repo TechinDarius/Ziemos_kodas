@@ -1,78 +1,76 @@
 /*===============  BREAKPOINTS ===============*/
-  
-    /* For small devices */
-    @media screen and (max-width: 375px) {
-    
-    .header__container {
-      height: 740px;
+
+/* For small devices */
+@media screen and (max-width: 375px) {
+  .header__container {
+    height: 740px;
+    text-align: center;
+    border: 2px solid #000;
+    color: #000;
+    background-color: #0000ff;
+  }
+  .main__container {
+    border: 2px solid #000;
+    //height: calc(4187px - 353px - 740px);
+    background-color: #ff00bb;
+
+    .api__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
       text-align: center;
-      border: 2px solid #000;
-      color: #000;
-      background-color: #0000ff;
     }
-    .main__container {
-      border: 2px solid #000;
-      //height: calc(4187px - 353px - 740px);
-      background-color: #ff00bb;
-  
-      .api__container{
-        height: 200px;
-        border: 1px solid #000;
-        font-size: 1.3rem;
-        text-align: center;
-      }
-      .companies__container{
-        height: 200px;
-        border: 1px solid #000;
-        font-size: 1.3rem;
-        text-align: center;
-      }
-      .implement__container{
-        height: 200px;
-        border: 1px solid #000;
-        font-size: 1.3rem;
-        text-align: center;
-      }
-      .app__container{
-        height: 200px;
-        border: 1px solid #000;
-        font-size: 1.3rem;
-        text-align: center;
-      }
-      .finances__container{
-        height: 200px;
-        border: 1px solid #000;
-        font-size: 1.3rem;
-        text-align: center;
-      }
-      .demo__container{
-        height: 200px;
-        border: 1px solid #000;
-        font-size: 1.3rem;
-        text-align: center;
-      }
-    }
-    .footer__container {
-      height: 353px;
+    .companies__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
       text-align: center;
-      border: 2px solid #000;
-      color: #000;
-      flex-direction: column;
-      background-color: rgb(0, 255, 119);
+    }
+    .implement__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .app__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .finances__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .demo__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
     }
   }
-  
-  /* For medium devices */
-  /* @media screen and (min-width: 576px){
+  .footer__container {
+    height: 353px;
+    text-align: center;
+    border: 2px solid #000;
+    color: #000;
+    flex-direction: column;
+    background-color: rgb(0, 255, 119);
+  }
+}
+
+/* For medium devices */
+/* @media screen and (min-width: 576px){
   
   } */
-  
-  @media screen and (min-width: 768px) {
-  }
-  
-  /* For large devices */
-  /* @media screen and (min-width: 992px){
+
+@media screen and (min-width: 768px) {
+}
+
+/* For large devices */
+/* @media screen and (min-width: 992px){
   } */
-  @media screen and (min-width: 1440px) {
-  }
-  
+@media screen and (min-width: 1440px) {
+}
