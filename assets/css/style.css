@@ -140,6 +140,15 @@ a {
   pointer-events: none;
 }
 
+.footer__container {
+  text-align: center;
+  color: #fbfcfe;
+  margin-top: 2.56rem;
+  background-color: #1b262f;
+  background-image: url("/assets/images/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+}
+
 /*===============  BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 767px) {
@@ -233,15 +242,96 @@ a {
     text-align: center;
   }
   .footer__container {
+    background-position: top 11.06rem center;
     height: 353px;
     text-align: center;
-    border: 2px solid #000;
     color: #000;
+    margin-top: 2.56rem;
+  }
+  .footer__container .api__logo {
+    margin-top: 2.56rem;
+  }
+  .footer__container .footer__nav {
+    display: flex;
     flex-direction: column;
-    background-color: rgb(0, 255, 119);
+  }
+  .footer__container .footer__nav a {
+    color: #fbfcfe;
+    margin-top: 1.94rem;
+  }
+  .footer__container .api__media {
+    margin-top: 1.94rem;
+  }
+  .footer__container .api__media img {
+    margin-left: 0.97rem;
+    margin-right: 0.97rem;
   }
 }
 /* For medium devices */
+@media screen and (min-width: 768px) {
+  .footer__container {
+    width: 100%;
+    margin-left: 0;
+    background-position: left 21.19rem top -9.46rem;
+    height: 6.25rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .footer__container .api__logo {
+    margin-left: 2.44rem;
+    margin-top: 1.94rem;
+  }
+  .footer__container .footer__nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.63rem;
+    gap: 2rem;
+  }
+  .footer__container .footer__nav a {
+    color: #fbfcfe;
+    margin-top: 1rem;
+  }
+  .footer__container .api__media {
+    margin-top: 2.38rem;
+  }
+  .footer__container .api__media img {
+    margin-left: 0.97rem;
+    margin-right: 0.97rem;
+  }
+}
 /* For large devices */
+@media screen and (min-width: 1440px) {
+  .footer__container {
+    width: 100%;
+    background-position: left 65.62rem top -9.46rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 0rem;
+  }
+  .footer__container .api__logo {
+    margin-left: 10.25rem;
+    margin-top: 1.94rem;
+  }
+  .footer__container .footer__nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.63rem;
+    gap: 2rem;
+  }
+  .footer__container .footer__nav a {
+    color: #fbfcfe;
+    margin-top: 1rem;
+  }
+  .footer__container .api__media {
+    margin-top: 2.38rem;
+    margin-left: 34.3rem;
+  }
+  .footer__container .api__media img {
+    margin-left: 0.97rem;
+    margin-right: 0.97rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
