@@ -5,6 +5,12 @@
 /*--------------Font and Typography--------------*/
 /*--------------Font weight--------------*/
 /*---------------- BASE -----------------*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Public Sans", sans-serif;
   font-size: 0.9375rem;
@@ -133,6 +139,7 @@ a {
   border: 1px solid #36536b;
   pointer-events: none;
 }
+
 
 .resize-animation-stopper * {
   animation: none !important;
@@ -265,6 +272,26 @@ a {
   }
   .header__container .nav__header {
     margin: 1rem 2rem 2rem 1rem;
+=======
+.footer__container {
+  text-align: center;
+  color: #fbfcfe;
+  margin-top: 2.56rem;
+  background-color: #1b262f;
+  background-image: url("/assets/images/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+}
+
+/*===============  BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 767px) {
+  .header__container {
+    height: 740px;
+    text-align: center;
+    border: 2px solid #000;
+    color: #000;
+    background-color: #0000ff;
+
   }
   .main__container {
     border: 2px solid #000;
@@ -375,6 +402,7 @@ a {
   }
 }
 /* For medium devices */
+
 /* @media screen and (min-width: 576px){
 
   } */
@@ -408,6 +436,10 @@ a {
     opacity: 0.7;
   }
   .header__container .footer__container {
+
+@media screen and (min-width: 768px) {
+  .footer__container {
+
     width: 100%;
     margin-left: 0;
     background-position: left 21.19rem top -9.46rem;
@@ -416,16 +448,25 @@ a {
     flex-direction: row;
     gap: 2rem;
   }
+
   .header__container .footer__container .api__logo {
     margin-left: 2.44rem;
     margin-top: 1.94rem;
   }
   .header__container .footer__container .footer__nav {
+
+  .footer__container .api__logo {
+    margin-left: 2.44rem;
+    margin-top: 1.94rem;
+  }
+  .footer__container .footer__nav {
+
     display: flex;
     flex-direction: row;
     margin-top: 1.63rem;
     gap: 2rem;
   }
+
   .header__container .footer__container .footer__nav a {
     color: #fbfcfe;
     margin-top: 1rem;
@@ -451,6 +492,23 @@ a {
     margin-left: 1rem;
   }
   .header__container .footer__container {
+
+  .footer__container .footer__nav a {
+    color: #fbfcfe;
+    margin-top: 1rem;
+  }
+  .footer__container .api__media {
+    margin-top: 2.38rem;
+  }
+  .footer__container .api__media img {
+    margin-left: 0.97rem;
+    margin-right: 0.97rem;
+  }
+}
+/* For large devices */
+@media screen and (min-width: 1440px) {
+  .footer__container {
+
     width: 100%;
     background-position: left 65.62rem top -9.46rem;
     display: flex;
@@ -458,16 +516,25 @@ a {
     gap: 2rem;
     margin: 0rem;
   }
+
   .header__container .footer__container .api__logo {
     margin-left: 10.25rem;
     margin-top: 1.94rem;
   }
   .header__container .footer__container .footer__nav {
+
+  .footer__container .api__logo {
+    margin-left: 10.25rem;
+    margin-top: 1.94rem;
+  }
+  .footer__container .footer__nav {
+
     display: flex;
     flex-direction: row;
     margin-top: 1.63rem;
     gap: 2rem;
   }
+
   .header__container .footer__container .footer__nav a {
     color: #fbfcfe;
     margin-top: 1rem;
@@ -477,12 +544,26 @@ a {
     margin-left: 34.3rem;
   }
   .header__container .footer__container .api__media img {
+
+  .footer__container .footer__nav a {
+    color: #fbfcfe;
+    margin-top: 1rem;
+  }
+  .footer__container .api__media {
+    margin-top: 2.38rem;
+    margin-left: 34.3rem;
+  }
+  .footer__container .api__media img {
+
     margin-left: 0.97rem;
     margin-right: 0.97rem;
   }
 }
+
 body {
   font-family: "Public Sans", sans-serif;
 }
+
+
 
 /*# sourceMappingURL=style.css.map */

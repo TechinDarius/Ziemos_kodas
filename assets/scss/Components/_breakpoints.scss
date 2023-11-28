@@ -175,11 +175,105 @@ $toggle-line: 0.25rem;
     background-color: #ff00bb;
 
     .api__container {
+
+/*===============  BREAKPOINTS ===============*/
+
+/* For small devices */
+@media screen and (max-width: 767px) {
+  .header__container {
+    height: 740px;
+    text-align: center;
+    border: 2px solid #000;
+    color: #000;
+    background-color: #0000ff;
+  }
+  .main__container {
+    border: 2px solid #000;
+
+    background-color: #ff00bb;
+
+    .api__container {
       height: 200px;
       border: 1px solid #000;
       font-size: 1.3rem;
       text-align: center;
     }
+    .companies__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .implement__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .app__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .finances__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .demo__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    //about.html
+    .innovators__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .vision__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .picture__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .statistics__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .culture__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    //contacts
+    .help__container {
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .registration__container {
+
+      height: 200px;
+      border: 1px solid #000;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+
 
     .companies__container {
       height: 200px;
@@ -268,11 +362,15 @@ $toggle-line: 0.25rem;
     }
   }
 
+
+  }
+
   .footer__container {
     background-position: top 11.06rem center;
 
     height: 353px;
     text-align: center;
+
     color: #000;
     margin-top: 2.56rem;
 
@@ -280,20 +378,30 @@ $toggle-line: 0.25rem;
       margin-top: 2.56rem;
     }
 
+
     .footer__nav {
       display: flex;
       flex-direction: column;
 
+    .footer__nav {
+      display: flex;
+      flex-direction: column;
       a {
         color: $link-water-white;
         margin-top: 1.94rem;
       }
     }
 
+
     .api__media {
       margin-top: 1.94rem;
 
       img {
+
+    .api__media{
+      margin-top: 1.94rem;
+      img{
+
         margin-left: 0.97rem;
         margin-right: 0.97rem;
       }
@@ -303,6 +411,7 @@ $toggle-line: 0.25rem;
 }
 
 /* For medium devices */
+
 /* @media screen and (min-width: 576px){
 
   } */
@@ -442,3 +551,81 @@ $toggle-line: 0.25rem;
     }
   }
 }
+
+
+@media screen and (min-width: 768px) {
+  .footer__container {
+    width:100%;
+    margin-left: 0;
+    background-position: left 21.19rem top -9.46rem;
+    height: 6.25rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  
+  
+
+    .api__logo {
+   margin-left: 2.44rem;
+   margin-top:1.94rem;
+    }
+    .footer__nav {
+      display: flex;
+      flex-direction: row;
+      margin-top:1.63rem;
+      gap: 2rem;
+      a {
+        color: $link-water-white;
+        margin-top: 1rem;
+      }
+    }
+    .api__media{
+      margin-top: 2.38rem;
+      img{
+        margin-left: 0.97rem;
+        margin-right: 0.97rem;
+      }
+
+    }
+  }
+}
+
+/* For large devices */
+
+@media screen and (min-width: 1440px) {
+  .footer__container {
+    width: 100%;
+    background-position: left 65.62rem top -9.46rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 0rem;
+  
+
+    .api__logo {
+   margin-left: 10.25rem;
+   margin-top:1.94rem;
+    }
+    .footer__nav {
+      display: flex;
+      flex-direction: row;
+      margin-top:1.63rem;
+      gap: 2rem;
+      a {
+        color: $link-water-white;
+        margin-top: 1rem;
+      }
+    }
+    .api__media{
+      margin-top: 2.38rem;
+      margin-left: 34.3rem;
+      img{
+        margin-left: 0.97rem;
+        margin-right: 0.97rem;
+      }
+
+    }
+  }
+}
+
+
